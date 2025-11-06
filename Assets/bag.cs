@@ -24,7 +24,6 @@ public class bag : MonoBehaviour
             trigger.SetActive(false);
             lampu.GetComponent<Light>().enabled = false;
             fake = true;
-            _ui.GaadaWaktu();
             Player.GetComponent<FirstPersonController>().addBattery(0.25f);
         }
     }

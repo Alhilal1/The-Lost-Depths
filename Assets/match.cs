@@ -20,7 +20,6 @@ public class match : MonoBehaviour
             mesh.SetActive(false);
             lampu.GetComponent<Light>().enabled = false;
             fake = true;
-            _ui.sigma();
         }
     }
 }
